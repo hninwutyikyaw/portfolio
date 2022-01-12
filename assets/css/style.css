@@ -471,6 +471,8 @@ img {
 .project {
     background-color: var(--first-color-light);
     padding-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .project__container {
@@ -690,6 +692,7 @@ body.dark-theme {
         .skills-container,
         .portfolio__container,
         .contact__container,
+        .project__container,
         .footer__container {
             grid-template-columns: repeat(2, 1fr);
         }
@@ -704,6 +707,11 @@ body.dark-theme {
 
         .about__description {
             text-align: initial;
+        }
+
+       #project {
+          margin-left: 1rem;
+          margin-right: 1rem;
         }
 
         .about__img {
@@ -754,7 +762,6 @@ body.dark-theme {
         padding : 0 2rem;
     }
 
-
 /* .change-theme {
     position: initial;
     margin-left: 2rem;
@@ -797,6 +804,7 @@ body.dark-theme {
     .skills__container,
     .education__container,
     .portfolio__container,
+    .project__container,
     .contact__container,
     .footer__container {
         margin-top: var(--mb-5);
