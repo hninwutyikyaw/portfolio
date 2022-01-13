@@ -703,6 +703,49 @@ img {
     margin-top: var(--mb-3);
 }
 
+    .swiper-wrapper {
+    text-align: center;
+}
+
+.slide {
+    background-color: var(--first-color-light);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.slide p {
+    font-size: var(--font-medium);
+    position: relative;
+}
+
+.slide p::before {
+    content: '';
+    position: absolute;
+    bottom: -1.2rem;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    height: 2rem;
+    width: 2rem;
+}
+
+.slide img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.slide h3 {
+    font-size: var(--normal-font-size);
+    padding: .5rem 0
+}
+
+.stars {
+    font-size: 1.5rem;
+    color: var(--first-color-alt)
+}
+
+
+
 body.dark-theme {
     /*===== VARIABLE CSS =====*/
     --title-color: #F1F3F2;
