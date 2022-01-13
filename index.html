@@ -11,6 +11,9 @@
         <!--========== BOX ICONS ==========-->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
+        <!--========== AOS ==========-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/style.css">
         
@@ -53,10 +56,10 @@
         <!--========== HOME ==========-->
         <section class="home" id="home">
             <div class="home__container bd-grid bd-container">
-                <div class="home__content bd-grid">
+                <div class="home__content bd-grid" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="300">
 
                     <div class="social">
-                        <a href="" class="social__icon"><i class="uil uil-github-alt"></i></a>
+                        <a href="https://github.com/hninwutyikyaw" class="social__icon"><i class="uil uil-github-alt"></i></a>
                         <a href="" class="social__icon"><i class="uil uil-facebook"></i></a>
                         <a href="" class="social__icon"><i class="uil uil-at"></i></a>
                     </div>
@@ -64,7 +67,7 @@
 
                 </div>
 
-                <div class="home__data">
+                <div class="home__data" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="200">
                     <h1 class="home__title home-initial">
                         Hi, I'am Hnin Wut Yi Kyaw
                     </h1>
@@ -85,9 +88,9 @@
             <h2 class="section-title">About me</h2>
          
             <div class="about__container bd-container bd-grid">
-                    <img src="assets/img/about-img.png" alt="" class="about__img">
+                    <img src="assets/img/about-img.png" alt="" class="about__img" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="300" >
 
-                    <div class="about__data">
+                    <div class="about__data" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="200">
                         <p class="about__description">
                             I am passionate about creating and developing web interfaces.  With years of experience in web design and development.
                         </p>
@@ -118,8 +121,8 @@
             <span class="section-subtitle">My technical level</span>
             <h2 class="section-title">Skills</h2>
 
-            <div class="skills__container bd-container bd-grid">
-                    <div class="skills__content skills__open">
+            <div class="skills__container bd-container bd-grid" >
+                    <div class="skills__content skills__open" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                         <div class="skills__header">
                             <i class="uil uil-brackets-curly skills__icon"></i>
 
@@ -141,7 +144,7 @@
                         </div>
                     </div>
 
-                    <div class="skills__content skills__close">
+                    <div class="skills__content skills__close" data-aos="fade-down"  data-aos-duration="2000" data-aos-delay="300">
                         <div class="skills__header">
                             <i class="uil uil-brackets-curly skills__icon"></i>
 
@@ -184,7 +187,7 @@
                 </div>
             </div>
 
-            <div class="education__contents bd-container" id="education-content">
+            <div class="education__contents bd-container" id="education-content" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300">
                     <div class="education__content">
                         <div>
                             <h3 class="education__year">2010 - 2015</h3>
@@ -231,7 +234,7 @@
                     </div>
             </div>
 
-            <div class="education__contents bd-container" id="certification-content">
+            <div class="education__contents bd-container" id="certification-content" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300">
                 <div class="education__content">
                     <div>
                         <h3 class="education__year">2019</h3>
@@ -296,18 +299,67 @@
 
 </section>
 
+ <!--========== SERVICES ==========-->
+ <section class="services section" id="services">
+    <span class="section-subtitle">What I do</span>
+    <h2 class="section-title">Services</h2>
+    <div class="service__container bd-container bd-grid">
 
+        <div class="service__content" data-aos="fade-down"  data-aos-duration="1000" data-aos-delay="200">
+            <img src="assets/img/webDesign.png" class="service__img" alt="">
+            <div class="service__data">
+                <div class="service__title">
+                    Web Design
+                </div>
+                <div class="service__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, tempora!
+                </div>
+                <a href="" class="button service__button">Read More</a>
+            </div>
+        </div>
+
+        <div class="service__content" data-aos="fade-down"  data-aos-duration="2000" data-aos-delay="200">
+            <img src="assets/img/webDesign.png" class="service__img" alt="">
+            <div class="service__data">
+                <div class="service__title">
+                    Web Development
+                </div>
+                <div class="service__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, tempora!
+                </div>
+                <a href="" class="button service__button">Read More</a>
+            </div>
+        </div>
+
+        <div class="service__content" data-aos="fade-down"  data-aos-duration="3000" data-aos-delay="200">
+            <img src="assets/img/webDesign.png" class="service__img" alt="">
+            <div class="service__data">
+                <div class="service__title">
+                    Web Design
+                </div>
+                <div class="service__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, tempora!
+                </div>
+                <a href="" class="button service__button">Read More</a>
+            </div>
+        </div>
+        
+     
+   
+    </div>
+
+ </section>
 
         <!--========== PROJECT IN MIND ==========-->
         <section class="project section" id="project">
             <div class="project__container bd-container bd-grid">
-                <img src="assets/img/pim.png" class="project__img" alt="">
+                <img src="assets/img/pim.png" class="project__img" alt="" data-aos="fade-down"  data-aos-duration="3000" data-aos-delay="200">
                 <div class="project__data">
                     <h2 class="project__title">Do you have a project in mind</h2>
-                    <p class="project__description">
+                    <p class="project__description" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="300">
                         If you have a project that you want to carry out, do not hesitate and tell me what it is, and what services I can offer you, contact me directly here.
                     </p>
-                    <a href="" class="button project__button">Contact me</a>
+                    <a href="" class="button project__button" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="300">Contact me</a>
                 </div>
             </div>
         </section>
@@ -319,7 +371,7 @@
 
         <div class="bd-container ">
             <div class="portfolio__container bd-grid">
-                <div class="portfolio__content">
+                <div class="portfolio__content" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                     <img src="assets/img/portfolio1.jpg" alt="">
                     <div class="portfolio__data">
                         <h2 class="portfolio__title">Modern Website</h2>
@@ -327,7 +379,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio__content">
+                <div class="portfolio__content" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300">
                     <img src="assets/img/portfolio2.jpg" alt="">
                     <div class="portfolio__data">
                         <h2 class="portfolio__title">Modern Website</h2>
@@ -335,7 +387,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio__content"> 
+                <div class="portfolio__content" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="300"> 
                     <img src="assets/img/portfolio3.jpg" alt="">
                     <div class="portfolio__data">
                         <h2 class="portfolio__title">Modern Website</h2>
@@ -345,8 +397,8 @@
             </div>
         </div>
   
-        <div class="portfolio__modal" id="modal1">
-            <div class="portfolio__modal__content bd-grid">
+        <div class="portfolio__modal" id="modal1" >
+            <div class="portfolio__modal__content bd-grid" >
                 <i class="uil uil-times portfolio__modal-close"></i>
                 <div class="portfolio__modal__thumbnail">
                     <img src="assets/img/portfolio1.jpg" alt="">
@@ -422,7 +474,7 @@
             <span class="section-subtitle">Get in touch</span>
             <h2 class="section-title">Contact Me</h2>
 
-            <div class="contact__container bd-container bd-grid">
+            <div class="contact__container bd-container bd-grid" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="300">
                 <div>
 
                     <div class="contact__information">
@@ -479,35 +531,38 @@
         <footer class="footer" id="footer">
             <div class="footer-bg">
                 <div class="footer__container bd-container bd-grid">
-                    <div>
+                    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                         <h1 class="footer__title">HWYK</h1>
                         <span class="footer__subtitle">Fullstack Developer</span>
                     </div>
 
-                    <ul class="footer__links">
-                        <li><a href="" class="footer__link">Services</a></li>
-                        <li><a href="" class="footer__link">Portfolio</a></li>
-                        <li><a href="" class="footer__link">Contact me</a></li>
+                    <ul class="footer__links" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300">
+                        <li><a href="#services" class="footer__link">Services</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#contact" class="footer__link">Contact me</a></li>
                     </ul>
 
-                    <div class="footer__socials bd-grid">
+                    <div class="footer__socials bd-grid" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="300">
                         <div>
                             <a href="" class="footer__social"><i class="uil uil-facebook footer_social_icon"></i></a>
                         </div>
                         <div>
-                            <a href="" class="footer__social"><i class="uil uil-instagram footer_social_icon"></i></a>
+                            <a href="https://github.com/hninwutyikyaw"  class="footer__social"><i class="uil uil-github-alt footer_social_icon"></i></a>
                         </div>
                         <div>
                             <a href="" class="footer__social"><i class="uil uil-twitter footer_social_icon"></i></a>
                         </div>
                     </div>
                 </div>
-                <p class="footer__copy">&#169; HWYK. All right Reserved</p>
+                <p class="footer__copy" >&#169; HWYK. All right Reserved</p>
             </div>
         </footer>
 
-        <script src="https://unpkg.com/scrollreveal"></script>
-
+        <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
         <!--========== MAIN JS ==========-->
         <script src="assets/js/app.js"></script>
     </body>
