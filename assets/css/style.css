@@ -118,12 +118,9 @@ img {
 /* make center */
 .bd-container {
     max-width: 1024px;
-
     width: calc(100% - 2rem);
-
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
-
 }
 
 .bd-grid {
@@ -136,7 +133,7 @@ img {
 .l-header {
     width: 100%;
     background-color: var(--body-color);
-    position: fixed;;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
@@ -612,6 +609,10 @@ img {
 .modal__info__list  span {
     color:  var(--text-color-light);
     font-weight:  100;
+}
+
+.portfolio-modal-img {
+    width: 100%;
 }
 
 /*========== CONTACT ME==========*/
